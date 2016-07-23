@@ -42,11 +42,13 @@
     
 }
 
-- (void)divideAndMerge:(NSMutableArray *)temp usingSelector:(SEL)comparator {
+- (void)divideAndMerge:(NSMutableArray *)temp usingSelector:(SEL)comparator
+         forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEndIndex:(NSInteger)endIndex {
     
 }
 
-- (void)merge:(NSMutableArray *)temp usingSelector:(SEL)comparator {
+- (void)merge:(NSMutableArray *)temp usingSelector:(SEL)comparator
+forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEndIndex:(NSInteger)endIndex {
 
 }
 

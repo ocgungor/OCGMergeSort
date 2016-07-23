@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f5f8b7f-d785-453f-b521-9b1b6000a925" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OCGMergeSort/Base.lproj/LaunchScreen.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OCGMergeSort/Base.lproj/Main.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OCGMergeSort/ViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OCGMergeSort/ViewController.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/OCGMergeSort.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" afterPath="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" />
     </list>
     <ignored path="OCGMergeSort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="OCGMergeSort.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="500">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469276752998</updated>
-      <workItem from="1469276755724" duration="516000" />
+      <workItem from="1469276755724" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="added possible methods">
       <created>1469278270108</created>
@@ -176,11 +172,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469278270108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removed unnecessary files">
+      <created>1469278423767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1469278423767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="516000" />
+    <option name="totallyTimeSpent" value="801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -219,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added possible methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added possible methods" />
+    <MESSAGE value="removed unnecessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -236,8 +240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="500">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
