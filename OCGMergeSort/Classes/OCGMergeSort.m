@@ -64,10 +64,14 @@ forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEnd
     NSInteger midIndex = middleIndex + 1;   // second sorted subarray index
 
     for (NSInteger i = beginIndex; i <= endIndex; i++) {
-        if (firstIndex > middleIndex) temp[i] = self[midIndex++];
-        else if (midIndex > endIndex) temp[i] = self[firstIndex++];
-        else if ([self[firstIndex] compare:self[midIndex]] == NSOrderedAscending) temp[i] = self[firstIndex++];
-        else temp[i] = self[midIndex++];
+        if (firstIndex > middleIndex)
+            temp[i] = self[midIndex++];
+        else if (midIndex > endIndex)
+            temp[i] = self[firstIndex++];
+        else if ((NSInteger)[self[firstIndex] performSelector:comparator withObject:self[midIndex]] == NSOrderedAscending)
+            temp[i] = self[firstIndex++];
+        else
+            temp[i] = self[midIndex++];
     }
     [self copy:temp usingSelector:comparator forBeginIndex:beginIndex andEndIndex:endIndex];
 }
