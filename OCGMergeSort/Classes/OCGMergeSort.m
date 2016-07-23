@@ -47,7 +47,15 @@
 
 - (void)divideAndMerge:(NSMutableArray *)temp usingSelector:(SEL)comparator
          forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEndIndex:(NSInteger)endIndex {
-    
+    if (beginIndex < middleIndex) {
+        [self divideAndMerge:temp usingSelector:comparator forBeginIndex:beginIndex
+              andMiddleIndex:(beginIndex+middleIndex)/2 andEndIndex:middleIndex];
+    }
+    if (middleIndex+1 < endIndex) {
+        [self divideAndMerge:temp usingSelector:comparator forBeginIndex:middleIndex+1
+              andMiddleIndex:(middleIndex+1+endIndex)/2 andEndIndex:endIndex];
+    }
+    [self merge:temp usingSelector:comparator forBeginIndex:beginIndex andMiddleIndex:middleIndex andEndIndex:endIndex];
 }
 
 - (void)merge:(NSMutableArray *)temp usingSelector:(SEL)comparator
