@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Homemade Merge Sort Algorithm for large data structures that require custom sorting"
 
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "Homemade Merge Sort Algorithm for large data structures that require custom sorting"
+                   
 
   s.homepage     = "https://github.com/ocgungor/OCGMergeSort"
 
