@@ -38,4 +38,17 @@
 
 @implementation NSMutableArray(OCGMergeSort)
 
+- (void)mergeSortUsingSelector:(SEL)comparator {
+    
+}
+
+- (void)divideAndMerge:(NSMutableArray *)temp usingSelector:(SEL)comparator {
+    
+}
+
+- (void)merge:(NSMutableArray *)temp usingSelector:(SEL)comparator {
+
+}
+
+
 @end
