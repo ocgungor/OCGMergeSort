@@ -39,7 +39,10 @@
 @implementation NSMutableArray(OCGMergeSort)
 
 - (void)mergeSortUsingSelector:(SEL)comparator {
-    
+    if(self.count > 0) {
+        NSMutableArray *copy = self.copy;
+        [self divideAndMerge:copy usingSelector:comparator forBeginIndex:0 andMiddleIndex:self.middleIndex andEndIndex:self.endIndex];
+    }
 }
 
 - (void)divideAndMerge:(NSMutableArray *)temp usingSelector:(SEL)comparator
@@ -52,5 +55,12 @@ forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEnd
 
 }
 
+- (NSInteger)middleIndex {
+    return self.endIndex/2;
+}
+
+- (NSInteger)endIndex {
+    return self.count-1;
+}
 
 @end
