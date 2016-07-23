@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -175,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469276752998</updated>
-      <workItem from="1469276755724" duration="4116000" />
+      <workItem from="1469276755724" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="added possible methods">
       <created>1469278270108</created>
@@ -251,7 +251,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4116000" />
+    <option name="totallyTimeSpent" value="4597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -317,7 +317,7 @@
     <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
           <folding />
         </state>
       </provider>
