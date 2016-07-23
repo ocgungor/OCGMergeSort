@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f8b7f-d785-453f-b521-9b1b6000a925" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" afterPath="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" afterPath="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" />
     </list>
     <ignored path="OCGMergeSort.iws" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
-              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -177,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469276752998</updated>
-      <workItem from="1469276755724" duration="3601000" />
+      <workItem from="1469276755724" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="added possible methods">
       <created>1469278270108</created>
@@ -228,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469282796193</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="use of selector for custom sorting">
+      <created>1469283100366</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1469283100366</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3601000" />
+    <option name="totallyTimeSpent" value="3782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -278,7 +284,8 @@
     <MESSAGE value="divideAndMerge method implementation" />
     <MESSAGE value="merge and copy methods implementation without selector" />
     <MESSAGE value="clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
+    <MESSAGE value="use of selector for custom sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="use of selector for custom sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -306,7 +313,7 @@
     <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding />
         </state>
       </provider>

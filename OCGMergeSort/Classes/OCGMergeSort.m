@@ -67,9 +67,12 @@ forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEnd
         if (firstIndex > middleIndex)
             temp[i] = self[midIndex++];
         else if (midIndex > endIndex)
-            temp[i] = self[firstIndex++];
+            temp[i] = self[firstIndex++];  
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
         else if ((NSInteger)[self[firstIndex] performSelector:comparator withObject:self[midIndex]] == NSOrderedAscending)
             temp[i] = self[firstIndex++];
+#pragma clang diagnostic pop
         else
             temp[i] = self[midIndex++];
     }
