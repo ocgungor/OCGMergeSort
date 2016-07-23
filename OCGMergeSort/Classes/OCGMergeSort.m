@@ -40,8 +40,8 @@
 
 - (void)mergeSortUsingSelector:(SEL)comparator {
     if (self.count > 0) {
-        NSMutableArray *copy = [NSMutableArray arrayWithArray:self];
-        [self divideAndMerge:copy usingSelector:comparator forBeginIndex:0 andMiddleIndex:self.middleIndex andEndIndex:self.endIndex];
+        [self divideAndMerge:self.clone usingSelector:comparator
+               forBeginIndex:0 andMiddleIndex:self.middleIndex andEndIndex:self.endIndex];
     }
 }
 
@@ -85,6 +85,10 @@ forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEnd
 
 - (NSInteger)endIndex {
     return self.count-1;
+}
+
+- (NSMutableArray *)clone {
+    return [NSMutableArray arrayWithArray:self];
 }
 
 @end
