@@ -39,8 +39,8 @@
 @implementation NSMutableArray(OCGMergeSort)
 
 - (void)mergeSortUsingSelector:(SEL)comparator {
-    if(self.count > 0) {
-        NSMutableArray *copy = self.copy;
+    if (self.count > 0) {
+        NSMutableArray *copy = [NSMutableArray arrayWithArray:self];
         [self divideAndMerge:copy usingSelector:comparator forBeginIndex:0 andMiddleIndex:self.middleIndex andEndIndex:self.endIndex];
     }
 }
@@ -60,7 +60,23 @@
 
 - (void)merge:(NSMutableArray *)temp usingSelector:(SEL)comparator
 forBeginIndex:(NSInteger)beginIndex andMiddleIndex:(NSInteger)middleIndex andEndIndex:(NSInteger)endIndex {
+    NSInteger firstIndex = beginIndex;      // first sorted subarray index
+    NSInteger midIndex = middleIndex + 1;   // second sorted subarray index
 
+    for (NSInteger i = beginIndex; i <= endIndex; i++) {
+        if (firstIndex > middleIndex) temp[i] = self[midIndex++];
+        else if (midIndex > endIndex) temp[i] = self[firstIndex++];
+        else if ([self[firstIndex] compare:self[midIndex]] == NSOrderedAscending) temp[i] = self[firstIndex++];
+        else temp[i] = self[midIndex++];
+    }
+    [self copy:temp usingSelector:comparator forBeginIndex:beginIndex andEndIndex:endIndex];
+}
+
+- (void)copy:(NSMutableArray *)temp usingSelector:(SEL)comparator forBeginIndex:(NSInteger)beginIndex
+ andEndIndex:(NSInteger)endIndex {
+    for (NSInteger i = beginIndex; i <= endIndex; i++) {
+        self[i] = temp[i];
+    }
 }
 
 - (NSInteger)middleIndex {

@@ -39,4 +39,5 @@
 
 @interface NSMutableArray(OCGMergeSort)
 
+- (void)mergeSortUsingSelector:(SEL)comparator;
 @end
