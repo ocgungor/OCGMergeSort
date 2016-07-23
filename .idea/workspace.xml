@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f5f8b7f-d785-453f-b521-9b1b6000a925" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" afterPath="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" afterPath="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" />
     </list>
     <ignored path="OCGMergeSort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OCGMergeSort.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OCGMergeSort.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="170">
               <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OCGMergeSort/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#144#167#0" expanded="true" />
               </folding>
@@ -53,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" />
         <option value="$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" />
+        <option value="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" />
       </list>
     </option>
   </component>
@@ -176,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469276752998</updated>
-      <workItem from="1469276755724" duration="3782000" />
+      <workItem from="1469276755724" duration="3995000" />
     </task>
     <task id="LOCAL-00001" summary="added possible methods">
       <created>1469278270108</created>
@@ -234,11 +234,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469283100366</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="killing the warning">
+      <created>1469283373247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1469283373247</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3782000" />
+    <option name="totallyTimeSpent" value="3995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -285,7 +292,8 @@
     <MESSAGE value="merge and copy methods implementation without selector" />
     <MESSAGE value="clean up" />
     <MESSAGE value="use of selector for custom sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="use of selector for custom sorting" />
+    <MESSAGE value="killing the warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="killing the warning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -300,21 +308,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCGMergeSort/AppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="e#144#167#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCGMergeSort/Classes/OCGMergeSort.m">
+    <entry file="file://$PROJECT_DIR$/OCGMergeSort/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#144#167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

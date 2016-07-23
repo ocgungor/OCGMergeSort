@@ -18,10 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSMutableArray *test = [@[@"OCG", @"Benchod", @"Ali G", @"1"] mutableCopy];
-    NSLog(@"test: %@", test);
-    [test mergeSortUsingSelector:@selector(compare:)];
-    NSLog(@"test: %@", test);
     return YES;
 }
 
