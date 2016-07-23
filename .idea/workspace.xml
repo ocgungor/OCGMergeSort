@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f5f8b7f-d785-453f-b521-9b1b6000a925" name="Default" comment="">
+    <list default="true" id="2f5f8b7f-d785-453f-b521-9b1b6000a925" name="Default" comment="clean up">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" afterPath="$PROJECT_DIR$/OCGMergeSort/AppDelegate.m" />
     </list>
     <ignored path="OCGMergeSort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -176,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469276752998</updated>
-      <workItem from="1469276755724" duration="3995000" />
+      <workItem from="1469276755724" duration="4116000" />
     </task>
     <task id="LOCAL-00001" summary="added possible methods">
       <created>1469278270108</created>
@@ -241,11 +240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469283373247</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="clean up">
+      <created>1469283777156</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1469283777156</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3995000" />
+    <option name="totallyTimeSpent" value="4116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -290,10 +296,10 @@
     <MESSAGE value="fixing the logic" />
     <MESSAGE value="divideAndMerge method implementation" />
     <MESSAGE value="merge and copy methods implementation without selector" />
-    <MESSAGE value="clean up" />
     <MESSAGE value="use of selector for custom sorting" />
     <MESSAGE value="killing the warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="killing the warning" />
+    <MESSAGE value="clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
