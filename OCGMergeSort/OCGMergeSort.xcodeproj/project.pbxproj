@@ -13,6 +13,7 @@
 		5654775C1D43879300672947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5654775A1D43879300672947 /* Main.storyboard */; };
 		5654775E1D43879300672947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5654775D1D43879300672947 /* Assets.xcassets */; };
 		565477611D43879300672947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5654775F1D43879300672947 /* LaunchScreen.storyboard */; };
+		5654776B1D438F6900672947 /* OCGMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 5654776A1D438F6900672947 /* OCGMergeSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5654775D1D43879300672947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		565477601D43879300672947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		565477621D43879300672947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565477691D438F6900672947 /* OCGMergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGMergeSort.h; sourceTree = "<group>"; };
+		5654776A1D438F6900672947 /* OCGMergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCGMergeSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		565477501D43879300672947 /* OCGMergeSort */ = {
 			isa = PBXGroup;
 			children = (
+				565477681D438F6900672947 /* Classes */,
 				565477541D43879300672947 /* AppDelegate.h */,
 				565477551D43879300672947 /* AppDelegate.m */,
 				565477571D43879300672947 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				565477521D43879300672947 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		565477681D438F6900672947 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				565477691D438F6900672947 /* OCGMergeSort.h */,
+				5654776A1D438F6900672947 /* OCGMergeSort.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				565477591D43879300672947 /* ViewController.m in Sources */,
 				565477561D43879300672947 /* AppDelegate.m in Sources */,
+				5654776B1D438F6900672947 /* OCGMergeSort.m in Sources */,
 				565477531D43879300672947 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
