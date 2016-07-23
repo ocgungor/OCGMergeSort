@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ocgungor/OCGMergeSort.git", :commit => "8756c71c6bec312522c1924122b10ea516ae21d1" }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "OCGMergeSort/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
