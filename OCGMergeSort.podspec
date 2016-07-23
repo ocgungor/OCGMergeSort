@@ -9,8 +9,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/ocgungor/OCGMergeSort"
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "Apache", :file => "LICENSE" }
 
 
 
