@@ -2,17 +2,13 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Classes/OCGMergeSort.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Classes/OCGMergeSort.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/ViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/AppDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/OCGMergeSort/Base.lproj/Main.storyboard" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
